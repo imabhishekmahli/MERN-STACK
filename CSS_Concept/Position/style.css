@@ -1,4 +1,4 @@
-.box{
+/* .box{
     border: 1px solid black;
     background-image: linear-gradient(to right, red,white,black);
     height: 100px;
@@ -6,4 +6,37 @@
     position: relative;
     left: 10px;
     top: 30px;
+} */
+
+.box{
+    display: inline-block;
+    /* border: 0px solid white; */
+    /* background-color: rebeccapurple; */
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+}
+
+#box1{
+    position: relative;
+    left: 10px;
+    background-image: linear-gradient(to right,red,blue);
+}
+
+#box2{
+    position: relative;
+    left: 5px;
+    background-image: linear-gradient(to right,blue,green);
+
+}
+
+#box3{
+    position: relative;
+    background-image: linear-gradient(to right,green,white);
+}
+
+#box4{
+    position: relative;
+    right: 5px;
+    background-image: linear-gradient(to right, white,black);
 }
