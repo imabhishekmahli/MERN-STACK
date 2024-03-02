@@ -1,0 +1,9 @@
+.box{
+    border: 1px solid black;
+    background-image: linear-gradient(to right, red,white,black);
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 10px;
+    top: 30px;
+}
