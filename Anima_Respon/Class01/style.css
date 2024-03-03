@@ -7,6 +7,7 @@
 
     grid-template-rows: repeat(4, 1fr); /*to creat rows and columns */
     grid-template-columns: repeat(3, 2fr);
+    grid-gap: 10px;  /*to create gap between boxes*/
 }
 
 .box{
