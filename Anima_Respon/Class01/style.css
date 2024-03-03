@@ -18,6 +18,9 @@
 }
 
 #box1{
-    grid-column-start: 1;
-    grid-column-end: 4;
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+
+    /* to extent any grid in row and columns use this shortcut; */
+    grid-area: 1/1/3/4;
 }
