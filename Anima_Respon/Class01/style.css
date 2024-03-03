@@ -4,6 +4,9 @@
     background-color: yellow;
 
     display: grid;  /*to convert the boxes inside container into grid*/
+
+    grid-template-rows: repeat(2, 1fr); /*to creat rows and columns */
+    grid-template-columns: repeat(2, 2fr);
 }
 
 .box{
