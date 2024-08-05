@@ -64,32 +64,42 @@
 
 // practice array of object 
 
-let arr1 = [{
-  firstName : 'abhishek',
-  gender : 'male',
-  address : 'harina colony',
-  college : 'IIT'
-},{
-  firstName : 'kumar',
-  gender : 'male',
-  address : 'Dhanbad',
-  college : 'IIT'
-},{
-  firstName : 'rohan',
-  gender : 'male',
-  address : 'ranchi',
-  college : 'NIT'
-},{
-  firstName : 'priya',
-  gender : 'female',
-  address : 'Tirupati',
-  college : 'BIT'
-}]
+// let arr1 = [{
+//   firstName : 'abhishek',
+//   gender : 'male',
+//   address : 'harina colony',
+//   college : 'IIT'
+// },{
+//   firstName : 'kumar',
+//   gender : 'male',
+//   address : 'Dhanbad',
+//   college : 'IIT'
+// },{
+//   firstName : 'rohan',
+//   gender : 'male',
+//   address : 'ranchi',
+//   college : 'NIT'
+// },{
+//   firstName : 'priya',
+//   gender : 'female',
+//   address : 'Tirupati',
+//   college : 'BIT'
+// }]
 
-for(let i=0;i<arr1.length;i++)
+// for(let i=0;i<arr1.length;i++)
+// {
+//   if(arr1[i]['college']=='BIT')
+//   {
+//     console.log(arr1[i]['firstName'])
+//   }
+// }
+
+
+// reverse an array 
+
+let arr2 = [1,2,3,4,5,6,7,8,9]
+
+for(let i=arr2.length;i>=0;i--)
 {
-  if(arr1[i]['college']=='BIT')
-  {
-    console.log(arr1[i]['firstName'])
-  }
+  console.log(arr2[i])
 }
