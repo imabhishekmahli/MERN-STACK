@@ -28,13 +28,36 @@
 
 // object 
 
-let obj1 = ['abhishek','kumar','rohan']
-let obj2 = ['male','female','male']
+// let obj1 = ['abhishek','kumar','rohan']
+// let obj2 = ['male','female','male']
 
-for(let i=0;i<obj1.length;i++)
+// for(let i=0;i<obj1.length;i++)
+// {
+//   if(obj2[i]=='male')
+//   {
+//     console.log(obj1[i])
+//   }
+// }
+
+
+// -------------------------
+// Array of object
+
+let a = [{
+  firstName : 'abhishek',
+  gender : 'male',
+},{
+  firstName : 'rohan',
+  gender : 'male'
+},{
+  firstName : 'priya',
+  gender : 'female'
+}]
+
+for(let i=0;i<a.length;i++)
 {
-  if(obj2[i]=='male')
+  if(a[i]['gender']=='female')
   {
-    console.log(obj1[i])
+    console.log(a[i]['firstName'])
   }
 }
