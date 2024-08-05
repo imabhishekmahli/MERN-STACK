@@ -123,18 +123,36 @@
 // const value = sum(5,6,displayResult);
 
 
-function sum(a,b,type)
-{
-  if(type == "sum")
-  {
-    return a+b;
-  }
+// function sum(a,b,type)
+// {
+//   if(type == "sum")
+//   {
+//     return a+b;
+//   }
 
-  if(type == "minus")
-  {
-    return a-b;
-  }
+//   if(type == "minus")
+//   {
+//     return a-b;
+//   }
+// }
+
+// let value = sum(5,8,"minus")
+// console.log(value)
+
+
+// Define an object
+let person = {
+	name: "abhishek",
+	age: 25
+};
+
+// Function that takes an object as a parameter
+function greet(personObj) {
+	console.log("Hello, " + personObj.name +
+		"! You are " + personObj.age + " years old.");
+
 }
 
-let value = sum(5,8,"minus")
-console.log(value)
+// Call the function and pass
+// the object as a parameter
+greet(person);
