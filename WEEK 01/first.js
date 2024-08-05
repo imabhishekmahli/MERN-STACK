@@ -19,6 +19,17 @@
 
 let firstName = 'abhishek'
 let age = 25
-let isMarried = false
+let isMarried = true
 
-console.log('this person nanme is ' + firstName +' and his age is ' + age )
+// console.log('this person nanme is ' + firstName +' and his age is ' + age )
+
+// ---------------- if else statement 
+
+if(isMarried==true)
+{
+  console.log(firstName + 'is Married')
+}
+
+else{
+  console.log(firstName + 'is not married')
+}
