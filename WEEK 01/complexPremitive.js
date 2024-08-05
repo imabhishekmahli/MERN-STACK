@@ -43,21 +43,53 @@
 // -------------------------
 // Array of object
 
-let a = [{
+// let a = [{
+//   firstName : 'abhishek',
+//   gender : 'male',
+// },{
+//   firstName : 'rohan',
+//   gender : 'male'
+// },{
+//   firstName : 'priya',
+//   gender : 'female'
+// }]
+
+// for(let i=0;i<a.length;i++)
+// {
+//   if(a[i]['gender']=='female')
+//   {
+//     console.log(a[i]['firstName'])
+//   }
+// }
+
+// practice array of object 
+
+let arr1 = [{
   firstName : 'abhishek',
   gender : 'male',
+  address : 'harina colony',
+  college : 'IIT'
+},{
+  firstName : 'kumar',
+  gender : 'male',
+  address : 'Dhanbad',
+  college : 'IIT'
 },{
   firstName : 'rohan',
-  gender : 'male'
+  gender : 'male',
+  address : 'ranchi',
+  college : 'NIT'
 },{
   firstName : 'priya',
-  gender : 'female'
+  gender : 'female',
+  address : 'Tirupati',
+  college : 'BIT'
 }]
 
-for(let i=0;i<a.length;i++)
+for(let i=0;i<arr1.length;i++)
 {
-  if(a[i]['gender']=='female')
+  if(arr1[i]['college']=='BIT')
   {
-    console.log(a[i]['firstName'])
+    console.log(arr1[i]['firstName'])
   }
 }
