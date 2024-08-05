@@ -97,9 +97,44 @@
 
 // reverse an array 
 
-let arr2 = [1,2,3,4,5,6,7,8,9]
+// let arr2 = [1,2,3,4,5,6,7,8,9]
 
-for(let i=arr2.length;i>=0;i--)
+// for(let i=arr2.length;i>=0;i--)
+// {
+//   console.log(arr2[i])
+// }
+
+
+
+// function sum(num1, num2,fnToCall) {
+//   let result = num1 + num2;
+//   return result;
+//   fnToCall(result);
+// }
+  
+// function displayResult(data) {
+//   console.log("Result of the sum is : " + data);
+// }
+  
+// function displayResultPassive(data) {
+//   console.log("Sum's result is : " + data);
+// }
+
+// const value = sum(5,6,displayResult);
+
+
+function sum(a,b,type)
 {
-  console.log(arr2[i])
+  if(type == "sum")
+  {
+    return a+b;
+  }
+
+  if(type == "minus")
+  {
+    return a-b;
+  }
 }
+
+let value = sum(5,8,"minus")
+console.log(value)
