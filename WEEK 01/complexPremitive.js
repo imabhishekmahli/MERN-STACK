@@ -12,13 +12,29 @@
 
 // biggest number in an Array
 
-let a = [1,5,42,4,5,2,3,1,55,4,7,8,6,2,11]
-let biggest = 0;
-for (let i=0;i<a.length;i++)
+// let a = [1,5,42,4,5,2,3,1,55,4,7,8,6,2,11]
+// let biggest = 0;
+// for (let i=0;i<a.length;i++)
+// {
+//   if(a[i]>biggest){
+//     biggest = a[i];
+//   }
+// }
+
+// console.log(biggest)
+
+
+// ------------------------------------------------
+
+// object 
+
+let obj1 = ['abhishek','kumar','rohan']
+let obj2 = ['male','female','male']
+
+for(let i=0;i<obj1.length;i++)
 {
-  if(a[i]>biggest){
-    biggest = a[i];
+  if(obj2[i]=='male')
+  {
+    console.log(obj1[i])
   }
 }
-
-console.log(biggest)
